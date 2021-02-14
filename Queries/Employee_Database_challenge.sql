@@ -79,3 +79,9 @@ title
 INTO unique_titles
 FROM retirement_title2
 ORDER BY emp_no ASC, to_date DESC;
+
+SELECT title, COUNT(*)
+INTO retiring_titles
+FROM unique_titles
+GROUP BY title
+ORDER BY COUNT(*) DESC
