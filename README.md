@@ -8,9 +8,16 @@
 
 - There are 29414 senior engineers and 28254 senior staffs retiring. 64% of those who are retiring has a senior title.
 
+[retiring_titles.csv](Data/retiring_titles.csv)
+
 - As of those who are eligible for mentorship, 738 out of 1550 have senior titles. That is nearly 50% (around 47.6%).
 
+[mentorship_eligibilty.csv](Data/mentorship_eligibilty.csv)
+
 - There are 133,777 rows in retirement_titles.csv and only 90,399 rows in unique_titles.csv. Assuming each person only changes their position once, this shows that 43,378 of those who are retiring changed their position over their course of career at Pewlett Hackard. 
+
+[retirement_titles.csv](Data/retirement_titles.csv)
+[unique_titles.csv](Data/unique_titles.csv)
 
 - There are only 2 managers retiring, which is good news for the company since generally administrative positions are harder to fill.
 
