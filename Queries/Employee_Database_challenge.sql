@@ -69,3 +69,13 @@ ORDER BY emp_no ASC
 
 SELECT emp_no, first_name, last_name, title
 FROM retirement_title2
+
+-- Use Distinct with Orderby to remove duplicate row
+SELECT DISTINCT ON (emp_no) emp_no,
+first_name,
+last_name,
+title
+
+INTO unique_titles
+FROM retirement_title2
+ORDER BY emp_no ASC, to_date DESC;
